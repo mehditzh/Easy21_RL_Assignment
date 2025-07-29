@@ -41,7 +41,7 @@ If you want to run each component independently (useful for debugging), follow t
 
 ---
 
-## 🧩 1. Easy21 Environment
+##  1. Easy21 Environment
 
 💻 [`easy21_env.py`](#) ← *(insert link)*
 
@@ -49,7 +49,7 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 ---
 
-## 🔁 2. Monte Carlo Control in Easy21
+##  2. Monte Carlo Control in Easy21
 
 💻 [`easy21_MonteCarlo.py`](#) ← *(insert link)*
 
@@ -67,7 +67,7 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 ---
 
-## ⛓️ 3. TD Learning in Easy21 (SARSA(λ))
+##  3. TD Learning in Easy21 (SARSA(λ))
 
 💻 [`easy21_Sarsa.py`](#) ← *(insert link)*
 
@@ -82,7 +82,7 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 ---
 
-## 📐 4. Function Approximation in Easy21
+##  4. Function Approximation in Easy21
 
 💻 [`easy21_FN_approximation.py`](#) ← *(insert link)*
 
@@ -97,14 +97,4 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 ---
 
-## 📌 Notes
-
-- This work is a personal implementation based on the assignment prompt and course material.  
-- Suggestions and feedback are welcome.
-
----
-
-## 📜 License
-
-MIT License – feel free to use and modify.
 
