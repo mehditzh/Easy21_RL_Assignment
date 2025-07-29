@@ -4,7 +4,7 @@ This repository contains my implementation of the Easy21 assignment from the **2
 
 - 📄 [Assignment PDF](https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/easy21-assignment.pdf)  
 - 🌐 [Course Website](https://davidstarsilver.wordpress.com/teaching/)
-- 🧠 [Main Script: `easy21_assignment.py`](#) ← *(insert link)*
+- 💻 [Main Script: `easy21_assignment.py`](#) ← *(insert link)*
 
 ---
 
@@ -43,7 +43,7 @@ If you want to run each component independently (useful for debugging), follow t
 
 ## 🧩 1. Easy21 Environment
 
-📄 [`easy21_env.py`](#) ← *(insert link)*
+💻 [`easy21_env.py`](#) ← *(insert link)*
 
 This file sets up the Easy21 game environment as described in the assignment. It defines the card drawing mechanism, game dynamics, and state-action spaces.
 
@@ -51,7 +51,7 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 ## 🔁 2. Monte Carlo Control in Easy21
 
-📄 [`easy21_MonteCarlo.py`](#) ← *(insert link)*
+💻 [`easy21_MonteCarlo.py`](#) ← *(insert link)*
 
 - Runs Monte Carlo control for **20 million episodes**.
 - Explores different levels of exploration by changing the `N0` parameter.
@@ -69,7 +69,7 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 ## ⛓️ 3. TD Learning in Easy21 (SARSA(λ))
 
-📄 [`easy21_Sarsa.py`](#) ← *(insert link)*
+💻 [`easy21_Sarsa.py`](#) ← *(insert link)*
 
 - Implements SARSA(λ) for values of λ in `{0, 0.1, ..., 1.0}`.
 - Each configuration is run **10,000 episodes**.
@@ -84,7 +84,7 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 ## 📐 4. Function Approximation in Easy21
 
-📄 [`easy21_FN_approximation.py`](#) ← *(insert link)*
+💻 [`easy21_FN_approximation.py`](#) ← *(insert link)*
 
 - Uses **linear function approximation** with SARSA(λ).
 - Same episode count and λ values as the TD Learning section.
