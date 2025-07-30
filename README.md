@@ -4,7 +4,7 @@ This repository contains my implementation of the Easy21 assignment from the **2
 
 - 📄 [Assignment PDF](https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/easy21-assignment.pdf)  
 - 🌐 [Course Website](https://davidstarsilver.wordpress.com/teaching/)
-- 💻 [Main Script: `easy21_assignment.py`](#) ← *(insert link)*
+- 💻 'All in One' Notebook: [`easy21_assignment.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/easy21_env.py)
 
 ---
 
@@ -12,7 +12,7 @@ This repository contains my implementation of the Easy21 assignment from the **2
 
 Five Python files are included:
 
-- `easy21_env.py`: Defines the Easy21 environment.
+- [`easy21_env.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/easy21_env.py): Defines the Easy21 environment.
 - `easy21_MonteCarlo.py`: Solves the environment using Monte Carlo control.
 - `easy21_Sarsa.py`: Implements the TD learning (SARSA(λ)) algorithm.
 - `easy21_FN_approximation.py`: Uses linear function approximation with SARSA(λ).
