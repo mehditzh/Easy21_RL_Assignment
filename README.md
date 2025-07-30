@@ -4,7 +4,7 @@ This repository contains my implementation of the Easy21 assignment from the **2
 
 - 📄 [Assignment PDF](https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/easy21-assignment.pdf)  
 - 🌐 [Course Website](https://davidstarsilver.wordpress.com/teaching/)
-- 💻 [Main Script: `easy21_assignment.py`](#) ← *(insert link)*
+- 💻 ['All in One' Notebook: `easy21_assignment.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/easy21_env.py)
 
 ---
 
