@@ -65,8 +65,6 @@ This file sets up the Easy21 game environment as described in the assignment. It
     <td>
       <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.NonGreedy.jpg?raw=true" height="150"/>
     </td>
-  </tr>
-  <tr>
     <td><b>N0 = 500</b></td>
     <td>
       <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0500Greedy.jpg?raw=true" height="150"/>
@@ -77,14 +75,13 @@ This file sets up the Easy21 game environment as described in the assignment. It
     <td>
       <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0100Greedy.jpg?raw=true" height="150"/>
     </td>
-  </tr>
-  <tr>
     <td><b>Greedy</b></td>
     <td>
       <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.Greedy.jpg?raw=true" height="150"/>
     </td>
   </tr>
 </table>
+
 
 
 
