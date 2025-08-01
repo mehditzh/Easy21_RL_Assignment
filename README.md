@@ -58,12 +58,21 @@ This file sets up the Easy21 game environment as described in the assignment. It
 - The resulting value matrix is reused as ground truth in later parts.
 
 #### 📊 Value Function Visualizations
-*(Insert images here)*
 
-![Non-Greedy MC](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.NonGreedy.jpg)
-![N0 = 500](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0500Greedy.jpg)
-![N0 = 100](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0100Greedy.jpg)
-![Greedy MC](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.Greedy.jpg)
+<p align="center">
+  <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.NonGreedy.jpg?raw=true" width="200"/>
+  <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0500Greedy.jpg?raw=true" width="200"/>
+  <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0100Greedy.jpg?raw=true" width="200"/>
+  <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.Greedy.jpg?raw=true" width="200"/>
+</p>
+
+<p align="center">
+  <b>Non-Greedy</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>N0 = 500</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>N0 = 100</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Greedy</b>
+</p>
+
 
 - **Left**: Non-greedy (random policy)
 - **Second from left**: `N0 = 500`
