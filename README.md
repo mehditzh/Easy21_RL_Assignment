@@ -59,19 +59,20 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 #### 📊 Value Function Visualizations
 
-<p align="center">
-  <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.NonGreedy.jpg?raw=true" height="150"/>
-  <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0500Greedy.jpg?raw=true" height="150"/>
-  <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0100Greedy.jpg?raw=true" height="150"/>
-  <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.Greedy.jpg?raw=true" height="150"/>
-</p>
-
-<p align="center">
-  <b>Non-Greedy</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>N0 = 500</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>N0 = 100</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Greedy</b>
-</p>
+<table>
+  <tr>
+    <td><b>λ = 0</b></td>
+    <td>
+      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/your_path/your_image1.jpg?raw=true" height="150"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>λ = 1</b></td>
+    <td>
+      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/your_path/your_image2.jpg?raw=true" height="150"/>
+    </td>
+  </tr>
+</table>
 
 
 
