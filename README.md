@@ -63,24 +63,25 @@ This file sets up the Easy21 game environment as described in the assignment. It
   <tr>
     <td><b>Non-Greedy</b></td>
     <td>
-      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.NonGreedy.jpg?raw=true" height="170" width="240"/>
+      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.NonGreedy.jpg?raw=true" height="200" width="280"/>
     </td>
     <td><b>N0 = 500</b></td>
     <td>
-      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0500Greedy.jpg?raw=true" height="170" width="240"/>
+      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0500Greedy.jpg?raw=true" height="200" width="280"/>
     </td>
   </tr>
   <tr>
     <td><b>N0 = 100</b></td>
     <td>
-      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0100Greedy.jpg?raw=true" height="170" width="240"/>
+      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0100Greedy.jpg?raw=true" height="200" width="280"/>
     </td>
     <td><b>Greedy</b></td>
     <td>
-      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.Greedy.jpg?raw=true" height="170" width="240"/>
+      <img src="https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.Greedy.jpg?raw=true" height="200" width="280"/>
     </td>
   </tr>
 </table>
+
 
 
 
