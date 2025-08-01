@@ -60,6 +60,11 @@ This file sets up the Easy21 game environment as described in the assignment. It
 #### 📊 Value Function Visualizations
 *(Insert images here)*
 
+![Non-Greedy MC]([plots/mc_n0_random.png](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.NonGreedy.jpg))
+![N0 = 500](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0500Greedy.jpg)
+![N0 = 100](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.N0100Greedy.jpg)
+![Greedy MC](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/2.%20Monte%20Carlo%20Plots/MonteCarlo.Greedy.jpg)
+
 - **Left**: Non-greedy (random policy)
 - **Second from left**: `N0 = 500`
 - **Third from left**: `N0 = 100` *(Assignment default)*
