@@ -82,11 +82,6 @@ This file sets up the Easy21 game environment as described in the assignment. It
   </tr>
 </table>
 
-- **Left**: Non-greedy (random policy)  
-- **Second from left**: `N0 = 500`  
-- **Third from left**: `N0 = 100` *(Assignment default)*  
-- **Right**: Greedy policy  
-
 ---
 
 ##  3. TD Learning in Easy21 (SARSA(λ))
@@ -98,7 +93,9 @@ This file sets up the Easy21 game environment as described in the assignment. It
   
 #### 📊 Plots:
 - Learning curves for λ = 0 and λ = 1.
+![Learning Curves](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/3.%20Sarsa%20Plots/Sarsa.Leaning_Curves.png)
 - MSE vs. λ graph.
+![MSE vs. λ](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/3.%20Sarsa%20Plots/Sarsa.MSE_vs_Lambda.png)
 
 *Observation*: Despite several runs, λ = 1 consistently resulted in poor performance (highest MSE in most cases).
 
