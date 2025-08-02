@@ -4,7 +4,7 @@ This repository contains my implementation of the Easy21 assignment from the **2
 
 - 📄 [Assignment PDF](https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/easy21-assignment.pdf)  
 - 🌐 [Course Website](https://davidstarsilver.wordpress.com/teaching/)
-- 💻 'All in One' Notebook: [`easy21_assignment.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/easy21_env.py)
+- 💻 'All in One' Notebook: [`easy21_assignment.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/0-easy21_assignment.py)
 
 ---
 
@@ -12,11 +12,11 @@ This repository contains my implementation of the Easy21 assignment from the **2
 
 Five Python files are included:
 
-- [`easy21_env.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/easy21_env.py): Defines the Easy21 environment.
-- `easy21_MonteCarlo.py`: Solves the environment using Monte Carlo control.
-- `easy21_Sarsa.py`: Implements the TD learning (SARSA(λ)) algorithm.
-- `easy21_FN_approximation.py`: Uses linear function approximation with SARSA(λ).
-- `easy21_assignment.py`: A combined notebook executing all steps sequentially.
+- [`easy21_env.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/1-easy21_env.py): Defines the Easy21 environment.
+- [`easy21_MonteCarlo.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/2-easy21_montecarlo.py): Solves the environment using Monte Carlo control.
+- [`easy21_Sarsa.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/3-easy21_sarsa.py): Implements the TD learning (SARSA(λ)) algorithm.
+- [`easy21_FN_approximation.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/4-easy21_fn_approximation.py): Uses linear function approximation with SARSA(λ).
+- [`easy21_assignment.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/0-easy21_assignment.py): A combined notebook executing all steps sequentially.
 
 ---
 
@@ -43,7 +43,7 @@ If you want to run each component independently (useful for debugging), follow t
 
 ##  1. Easy21 Environment
 
-💻 [`easy21_env.py`](#) ← *(insert link)*
+💻 [`easy21_env.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/1-easy21_env.py)
 
 This file sets up the Easy21 game environment as described in the assignment. It defines the card drawing mechanism, game dynamics, and state-action spaces.
 
@@ -51,7 +51,7 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 ##  2. Monte Carlo Control in Easy21
 
-💻 [`easy21_MonteCarlo.py`](#) ← *(insert link)*
+💻 [`easy21_MonteCarlo.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/2-easy21_montecarlo.py)
 
 - Runs Monte Carlo control for **20 million episodes**.
 - Explores different levels of exploration by changing the `N0` parameter.
@@ -82,24 +82,16 @@ This file sets up the Easy21 game environment as described in the assignment. It
   </tr>
 </table>
 
-
-
-
-
-
-
-
-
-- **Left**: Non-greedy (random policy)
-- **Second from left**: `N0 = 500`
-- **Third from left**: `N0 = 100` *(Assignment default)*
-- **Right**: Greedy policy
+- **Left**: Non-greedy (random policy)  
+- **Second from left**: `N0 = 500`  
+- **Third from left**: `N0 = 100` *(Assignment default)*  
+- **Right**: Greedy policy  
 
 ---
 
 ##  3. TD Learning in Easy21 (SARSA(λ))
 
-💻 [`easy21_Sarsa.py`](#) ← *(insert link)*
+💻 [`easy21_Sarsa.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/3-easy21_sarsa.py)
 
 - Implements SARSA(λ) for values of λ in `{0, 0.1, ..., 1.0}`.
 - Each configuration is run **10,000 episodes**.
@@ -114,7 +106,7 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 ##  4. Function Approximation in Easy21
 
-💻 [`easy21_FN_approximation.py`](#) ← *(insert link)*
+💻 [`easy21_FN_approximation.py`](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Notebooks/4-easy21_fn_approximation.py)
 
 - Uses **linear function approximation** with SARSA(λ).
 - Same episode count and λ values as the TD Learning section.
@@ -125,6 +117,5 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 *Observation*: The MSE started surprisingly low and remained inconsistent for λ = 1. Despite reviewing the code thoroughly, the reason for this discrepancy compared to other online solutions remains unclear.
 
----
 
 
