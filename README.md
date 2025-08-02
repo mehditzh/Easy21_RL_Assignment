@@ -110,7 +110,9 @@ This file sets up the Easy21 game environment as described in the assignment. It
 
 #### 📊 Plots:
 - Learning curves for λ = 0 and λ = 1.
-- MSE vs. λ.
+![Learning Curve](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/4.%20Linear%20Function%20Approximation%20Plots/FN_Approximator.Learning_Curves.png)
+- MSE vs. λ Graph.
+![MSE vs. λ](https://github.com/mehditzh/Easy21_RL_Assignment/blob/main/Plots/4.%20Linear%20Function%20Approximation%20Plots/FN_Approximator.MSE_vs_lambdas.png)
 
 *Observation*: The MSE started surprisingly low and remained inconsistent for λ = 1. Despite reviewing the code thoroughly, the reason for this discrepancy compared to other online solutions remains unclear.
 
